@@ -1,0 +1,172 @@
+#center { /* a */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#father-start { /* w */
+    bottom: 45.5%;
+    left: 1.5%;
+}
+
+#father-mid { /* z */
+    bottom: 48%;
+    left: 33%;
+}
+
+#father-end { /* b */
+    bottom: 47%;
+    left: 55%;
+}
+
+#mother-start { /* k */
+    bottom: 45.5%;
+    right: 1.5%;
+}
+
+#mother-mid { /* g */
+    bottom: 61%;
+    right: 48%;
+}
+
+#mother-end { /* c */
+    bottom: 48%;
+    right: 34%;
+}
+
+#karma-top { /* d */
+    top: 1.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#karma-bottom { /* q */
+    bottom: 1.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#top-left { /* aa */
+    top: 14.5%;
+    left: 14.5%;
+}
+
+#top-right { /* h */
+    top: 14.5%;
+    right: 14.5%;
+}
+
+#low-outer-left { /* t */
+    bottom: 14.5%;
+    left: 14.5%;
+}
+
+#low-outer-right { /* n */
+    bottom: 14.5%;
+    right: 14.5%;
+}
+
+#mid-left { /* ab */
+    top: 25%;
+    left: 22%;
+    transform: translateY(-50%);
+}
+
+#mid-right { /* i */
+    top: 25%;
+    right: 22%;
+    transform: translateY(-50%);
+}
+
+#bottom { /* s */
+    bottom: 18.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#top-mid-left { /* ac */
+    top: 27%;
+    left: 27%;
+}
+
+#top-mid-1 { /* e */
+    top: 11.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#low-mid-left { /* x */
+    bottom: 44%;
+    left: 11.5%;
+    transform: translateY(-50%);
+}
+
+#mid-mid-right { /* m */
+    top: 50%;
+    right: 18.5%;
+    transform: translateY(-50%);
+}
+
+#mid-mid-left { /* y */
+    top: 50%;
+    left: 18.5%;
+    transform: translateY(-50%);
+}
+
+#low-mid-right { /* l */
+    top: 50%;
+    right: 11.5%;
+    transform: translateY(-50%);
+}
+
+#low-center-left { /* v */
+    bottom: 27%;
+    left: 27%;
+}
+
+#low-center-right { /* o */
+    bottom: 22%;
+    right: 22%;
+}
+
+#financial { /* p */
+    bottom: 27%;
+    right: 27%;
+}
+
+#health { /* ad */
+    bottom: 34.5%;
+    right: 34.5%;
+}
+
+#relationship { /* ae */
+    bottom: 28%;
+    right: 36%;
+}
+
+#mid-low-center { /* ef */
+    bottom: 36%;
+    right: 28%;
+}
+
+#top-mid-2 { /* f */
+    top: 18.5%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+#low-right { /* j */
+    top: 27.5%;
+    right: 27%;
+}
+
+#mid-low-left { /* u */
+    bottom: 22%;
+    left: 22%;
+}
+
+#low-mid-bottom { /* r */
+    bottom: 11.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}

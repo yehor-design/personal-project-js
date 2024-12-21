@@ -1,0 +1,49 @@
+:root {
+    scroll-behavior: smooth;
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            max-width: 1224px;
+        }
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    label,
+    input,
+    button {
+        font-family: "Inter", sans-serif;
+    }
+
+    --point-size-lg: 54px;
+    --point-size-md: 37px;
+    --point-size-sm: 24px;
+
+    --point-yellow: #f9cb68;
+    --point-white: #f2f2f2;
+    --point-white-border: #000000;
+    --point-green: #69b42d;
+    --point-red: #ea552e;
+    --point-orange: #f57337;
+    --point-violet: #a66eba;
+    --point-cyan: #54a3b3;
+    --point-teal: #80cabb;
+
+    --point-text-black: #000000;
+    --point-text-white: #ffffff;
+    --age-text-red: #ea552e;
+}

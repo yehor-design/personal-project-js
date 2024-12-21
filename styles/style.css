@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.content__form-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+}
+
+.content__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content__form-notification {
+    display: flex;
+    padding: 16px 16px 6px 16px;
+    border-radius: 8px;
+    color: #531e67;
+    text-wrap: balance;
+    background-color: #fcf5ff;
+}
+
+.content__form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.matrix__container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matrix {
+    display: grid;
+    width: 596px;
+    height: 596px;
+    background-image: url("../assets/images/matrix-base.svg");
+    background-size: cover;
+    background-position: center;
+    grid-template-areas: "overlap";
+}
+
+.matrix-points {
+    grid-area: overlap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    position: relative;
+}
+
+.point,
+.age {
+    visibility: hidden;
+}
+
+.point {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1;
+    color: var(--point-text-white);
+}
+
+.point--lg {
+    --size: var(--point-size-lg);
+}
+
+.point--md {
+    --size: var(--point-size-md);
+}
+
+.point--sm {
+    --size: var(--point-size-sm);
+}
+
+.point {
+    width: var(--size);
+    height: var(--size);
+    font-size: calc(var(--size) / 2);
+}
+
+.point__yellow {
+    background-color: var(--point-yellow);
+    color: var(--point-text-black);
+}
+
+.point__white {
+    background-color: var(--point-white);
+    color: var(--point-text-black);
+    border: 1px solid var(--point-white-border);
+}
+
+.point__green {
+    background-color: var(--point-green);
+}
+
+.point__red {
+    background-color: var(--point-red);
+}
+
+.point__orange {
+    background-color: var(--point-orange);
+}
+
+.point__violet {
+    background-color: var(--point-violet);
+}
+
+.point__cyan {
+    background-color: var(--point-cyan);
+}
+
+.point__teal {
+    background-color: var(--point-teal);
+}
+
+.matrix-ages {
+    grid-area: overlap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    position: relative;
+}
+
+.age {
+    display: flex;
+    position: absolute;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1;
+    color: var(--point-text-black);
+}
+
+.age--primary {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--age-text-red);
+}
